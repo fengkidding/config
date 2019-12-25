@@ -1,0 +1,22 @@
+spring:
+  http:
+    multipart:
+      max-file-size: 200mb
+      max-request-size: 200mb
+  
+# 启动端口
+server:
+  port: 10001
+  
+# 网关配置
+#zuul:
+#  # 忽略所有微服务
+#  ignored-services: '*'
+#  routes:
+#    bill: /user/**
+
+# 文件下载地址
+upload-path: upload/
+
+# jwt密钥
+login-secret: SIGNING_SECRET      
