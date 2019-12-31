@@ -1,5 +1,5 @@
-spring:
-  data:
-    elasticsearch:
-      cluster-name: logs-test
-      cluster-nodes: 127.0.0.1:9300
+elasticsearch:
+  cluster-name: logs-test
+  port: 127.0.0.1
+  ip: 9300
+  pool-size: 10
