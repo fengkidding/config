@@ -2,4 +2,4 @@ elasticsearch:
   cluster-name: logs-test
   port: 127.0.0.1
   ip: 9300
-  pool-size: 10
+  schema: http
