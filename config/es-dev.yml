@@ -1,5 +1,5 @@
 elasticsearch:
-  cluster-name: logs-test
+  clusterName: logs-test
   host: 127.0.0.1
   port: 9300
   schema: http
