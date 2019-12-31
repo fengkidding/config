@@ -1,6 +1,5 @@
-
-elasticsearch:
-  cluster-name: elasticsearch01
-  port: 127.0.0.1
-  ip: 9300
-  pool-size: 10
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch01
+      cluster-nodes: 127.0.0.1:9300
