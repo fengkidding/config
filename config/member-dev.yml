@@ -48,6 +48,10 @@ hystrix:
       execution:
         isolation:
           strategy: SEMAPHORE
+          
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 3000
 
 # token域
 external-apex: localhost
