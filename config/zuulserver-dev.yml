@@ -11,7 +11,7 @@ server:
 zuul:
   host:
     socket-timeout-millis: 5000
-    connect-timeout-millis: 5000
+    connect-timeout-millis: 3000
   
 # 网关配置
 #zuul:
