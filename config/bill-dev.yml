@@ -44,4 +44,7 @@ hystrix:
         isolation:
           strategy: SEMAPHORE    
     
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 3000
     
