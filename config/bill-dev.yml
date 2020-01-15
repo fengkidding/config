@@ -11,7 +11,7 @@ spring:
     type: caffeine
     cache-names: getQueryProductVO
     caffeine:
-      spec: maximumSize=1000,expireAfterAccess=20s
+      spec: maximumSize=1000,expireAfterAccess=600s
     
 server:
   port: 10003
