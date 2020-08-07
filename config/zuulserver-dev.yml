@@ -1,8 +1,8 @@
 spring:
-  http:
+  servlet:
     multipart:
-      max-file-size: 200mb
-      max-request-size: 200mb
+      max-file-size: 100MB
+      max-request-size: 100MB
   
 # 启动端口
 server:
