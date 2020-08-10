@@ -28,6 +28,7 @@ mybatis:
   configuration:
       map-underscore-to-camel-case: true
       default-executor-type: batch
+      default-statement-timeout: 30
 
 # mybatis分页插件
 pagehelper:
