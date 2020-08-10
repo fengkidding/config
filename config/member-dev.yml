@@ -18,6 +18,7 @@ mybatis:
   #开启驼峰命名转换
   configuration:
       map-underscore-to-camel-case: true
+      default-statement-timeout: 30
 
 # pagehelper分页插件
 pagehelper:
