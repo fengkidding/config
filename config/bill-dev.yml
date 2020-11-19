@@ -53,4 +53,7 @@ hystrix:
 ribbon:
   ReadTimeout: 5000
   ConnectTimeout: 3000
+  
+url: 
+  link: http://127.0.0.1:10003/
     
